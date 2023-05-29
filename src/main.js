@@ -1,12 +1,11 @@
-import './assets/main.css'
-import './assets/tailwind.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
+// import tailwind from './assets/tailwind.css'
+// import tailwind from './assets/tailwind.css?inline'
 import router from './router'
+import vuetify from './plugins/vuetify'
+import { loadFonts } from './plugins/webfontloader'
 
-const app = createApp(App)
+loadFonts()
 
-app.use(router)
-
-app.mount('#app')
+createApp(App).use(router).use(vuetify).mount('#app')
