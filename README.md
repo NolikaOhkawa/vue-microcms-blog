@@ -1,6 +1,8 @@
 # vue-play-ground
 
-- installed Tailwind CSS
+~~- installed Tailwind CSS~~
+
+- uninstalled Tailwind, installed Vuetify
 
 ## Recommended IDE Setup
 
